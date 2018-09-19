@@ -40,3 +40,10 @@
   - Run
 - In the build phase, we first use node:alpine as before, and copy package.json to the container, then install dependancies, and finally run `npm run build`
 - In the run phase, we need to use nginx then copy over the result of `npm run build` which is some static files, and finally, we start nginx
+
+### Setting up Travis(travis.yml)
+
+- Tell Travis we need a copy of docker running
+- Build our image using Dockerfile.dev
+- Tell Travis how to run our test suite
+- Tell how to deploy our code to AWS
