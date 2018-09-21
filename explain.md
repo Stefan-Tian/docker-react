@@ -47,3 +47,7 @@
 - Build our image using Dockerfile.dev
 - Tell Travis how to run our test suite
 - Tell how to deploy our code to AWS
+
+### AWS secret api keys
+
+- Don't put api keys directly in your travis.yml file, go to travisCI settings, and set it as an environment variable
