@@ -51,3 +51,7 @@
 ### AWS secret api keys
 
 - Don't put api keys directly in your travis.yml file, go to travisCI settings, and set it as an environment variable
+
+### Elasticbeanstalk port expose
+
+- We can expose the port by specifying it in production docker file
